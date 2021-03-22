@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color:#eee;
     padding: 60px; 
 }
 ul {
@@ -27,8 +27,8 @@ li span {
 input {
     display: none;
 }
-input [type="radio"]:checked + label span {
-    background-color: lightblue;
+input[type="radio"]:checked + label span {
+    background-color: lightseagreen;
 }
 .juste + label span {
     background-color: green !important;
