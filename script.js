@@ -6,7 +6,7 @@ document.addEventListener(
         var q2 = false;
         function verifquestionnaire() {
             if (q1 === true && q2 === true) {
-                b.disbled = false;
+                b.disabled = false;
             }
         }
         var reponseq1 = document.querySelectorAll('input[name="rep1"]');
@@ -23,8 +23,8 @@ document.addEventListener(
                 verifquestionnaire();
             });
         });
-        b.addEventListener("click", function(){
-            b.disbled = true;
+        b.addEventListener("click", function () {
+            b.disabled = true;
             let note = 0;
             let vraireponse1 = 1;
             let vraireponse2 = 2;
