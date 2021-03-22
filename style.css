@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: whitesmoke;
     padding: 60px; 
 }
 ul {
@@ -31,17 +31,17 @@ input [type="radio"]:checked + label span {
     background-color: lightblue;
 }
 .juste + label span {
-    background-color: lightgreen !important;
+    background-color: green !important;
     color: white;
 }
 .juste + label {
     color: green;
 }
 .faux + label span {
-    background-color: lightpink !important;
+    background-color: red !important;
     color: white;
 }
 .faux + label {
-    color: lightpink;
+    color: red;
     text-decoration: line-through;
 }

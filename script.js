@@ -9,15 +9,15 @@ document.addEventListener(
                 b.disabled = false;
             }
         }
-        var reponseq1 = document.querySelectorAll('input[name="rep1"]');
-        reponseq1.forEach((e) => {
+        var reponsesq1 = document.querySelectorAll('input[name="rep1"]');
+        reponsesq1.forEach((e) => {
             e.addEventListener("click", function () {
                 q1 = true;
                 verifquestionnaire ();
             });
         });
-        var reponseq2 = document.querySelectorAll('input[name="rep2"]');
-        reponseq2.forEach((e) => {
+        var reponsesq2 = document.querySelectorAll('input[name="rep2"]');
+        reponsesq2.forEach((e) => {
             e.addEventListener("click", function () {
                 q2 = true;
                 verifquestionnaire();
