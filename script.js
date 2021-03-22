@@ -1,21 +1,24 @@
 document.addEventListener(
-    "DomContentLoaded",
+    "DOMContentLoaded",
     function () {
         var b = document.querySelector("button");
         var q1 = false;
         var q2 = false;
+
         function verifquestionnaire() {
             if (q1 === true && q2 === true) {
                 b.disabled = false;
             }
         }
+
         var reponsesq1 = document.querySelectorAll('input[name="rep1"]');
         reponsesq1.forEach((e) => {
             e.addEventListener("click", function () {
                 q1 = true;
-                verifquestionnaire ();
+                verifquestionnaire();
             });
         });
+
         var reponsesq2 = document.querySelectorAll('input[name="rep2"]');
         reponsesq2.forEach((e) => {
             e.addEventListener("click", function () {
@@ -23,6 +26,7 @@ document.addEventListener(
                 verifquestionnaire();
             });
         });
+
         b.addEventListener("click", function () {
             b.disabled = true;
             let note = 0;
@@ -50,6 +54,7 @@ document.addEventListener(
                 console.log("la reponse 2 est fausse");
                 document.querySelector('input[name="rep2"]:checked').classList.add("faux");
             }
+            
             console.log("note finale : " + note + "/2");
         });
     },
