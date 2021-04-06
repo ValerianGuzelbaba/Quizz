@@ -71,7 +71,8 @@ document.addEventListener(
             } else {
                 document.querySelector('input[name="rep3"]:checked').classList.add("faux");
                 madiv5.style.display = "block";
-            }            
+            }   
+            alert("note finale : " + note + "/3");         
         });
     },
     false

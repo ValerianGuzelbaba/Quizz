@@ -37,7 +37,7 @@ input[type="radio"]:checked + label span {
 .juste + label:after {
     font-weight: bold;
     margin: 10px;
-    content: "bravo";
+    content: "juste";
 }
 .juste + label {
     color: green;
@@ -51,11 +51,11 @@ input[type="radio"]:checked + label span {
     text-decoration: line-through;
 }
 .faux + label:after {
-    display: inline-block;
+    text-decoration: none !important;
+    display: inline;
     font-weight: bold;
     margin: 10px;
     content: "faux";
-    text-decoration: none;
 }
 #maDIV, #maDIV4, #maDIV5{
     display: none;
