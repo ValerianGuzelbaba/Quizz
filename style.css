@@ -34,6 +34,11 @@ input[type="radio"]:checked + label span {
     background-color: green !important;
     color: white;
 }
+.juste + label:after {
+    font-weight: bold;
+    margin: 10px;
+    content: "bravo";
+}
 .juste + label {
     color: green;
 }
@@ -44,4 +49,21 @@ input[type="radio"]:checked + label span {
 .faux + label {
     color: red;
     text-decoration: line-through;
+}
+.faux + label:after {
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px;
+    content: "faux";
+    text-decoration: none;
+}
+#maDIV, #maDIV4, #maDIV5{
+    display: none;
+    color: red; 
+    margin-right: 70%;
+}
+#maDIV1, #maDIV2, #maDIV3{
+    display: none;
+    color: green; 
+    margin-right: 93%;
 }
