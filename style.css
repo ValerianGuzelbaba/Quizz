@@ -60,10 +60,10 @@ input[type="radio"]:checked + label span {
 #maDIV, #maDIV4, #maDIV5{
     display: none;
     color: red; 
-    margin-right: 70%;
+    margin-right: 50%;
 }
 #maDIV1, #maDIV2, #maDIV3{
     display: none;
     color: green; 
-    margin-right: 93%;
+    margin-right: 50%;
 }

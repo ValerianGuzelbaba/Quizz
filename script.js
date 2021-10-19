@@ -38,17 +38,17 @@ document.addEventListener(
             let vraireponse1 = 1;
             let vraireponse2 = 2;
             let vraireponse3 = 3;
-            let madiv = document.getElementById("maDIV");
-            let madiv4 = document.getElementById("maDIV4");
-            let madiv5 = document.getElementById("maDIV5");
-            let madiv1 = document.getElementById("maDIV1");
-            let madiv2 = document.getElementById("maDIV2");
-            let madiv3 = document.getElementById("maDIV3");
             var valeurreponse1 = document.querySelector('input[name="rep1"]:checked');
             var valeurreponse2 = document.querySelector('input[name="rep2"]:checked');
             var valeurreponse3 = document.querySelector('input[name="rep3"]:checked');
+            let madiv = document.getElementById("maDIV");
+            let madiv1 = document.getElementById("maDIV1");
+            let madiv2 = document.getElementById("maDIV2");
+            let madiv3 = document.getElementById("maDIV3");
+            let madiv4 = document.getElementById("maDIV4");
+            let madiv5 = document.getElementById("maDIV5");
             
-           if (valeurreponse1.value == vraireponse1) {
+            if (valeurreponse1.value == vraireponse1) {
                 document.querySelector('input[name="rep1"]:checked').classList.add("juste");
                 madiv1.style.display = "block";
                 note++;
